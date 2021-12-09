@@ -11,7 +11,7 @@ export default function Hero() {
                 </p>
                 <h1 className={'display-5 text-end fw-bold'}>
                     I’m Marcel <br/>
-                    Reactjs/Full Stack <br/> Developer, <br/>
+                    Reactjs/Python <br/> Developer, <br/>
                     based Ireland<span className={classes.blue}>.</span>
                 </h1>
             </div>
