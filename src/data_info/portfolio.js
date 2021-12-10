@@ -5,8 +5,7 @@ import globtopus from '../images/globtopus.png'
 export const portfolio_details = [
     {
         title: 'ifyMARKET.com',
-        description: 'Instead of building calculator app for my portfolio, I decided to build something ' +
-            'where I could use my previous experience so I decided to create a platform for local ' +
+        description: 'A marketplace for local ' +
             'producers, suppliers, growers to sell online.',
         url: 'https://www.ifymarket.com/business/',
         technologies: 'Python, Flask, MongoDB, Heroku, Firebase, Nginx, HTML, Stripe, CSS, Javascript, jQuery, leaflet.js...',
