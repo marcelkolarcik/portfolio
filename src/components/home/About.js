@@ -11,8 +11,9 @@ export default function About() {
             <div className={'col-md-5'}>
                 <img className={'rounded-3 img-fluid'} src={img} alt={''}/>
             </div>
-            <div className="col-md-7 p-5">
-                <h1 className={'display-1 fw-bold text-light about'}>About me<span className={classes.blue}>.</span></h1>
+            <div className="col-md-7 p-0 p-md-5">
+                <h1 className={'display-1 fw-bold text-light about'}>About me<span className={classes.blue}>.</span>
+                </h1>
                 <p className={classes.text_color + ' lead'}>
                     Highly motivated, self-starting developer seeking to launch a career
                     building web applications and services. Familiar with development and
@@ -25,14 +26,14 @@ export default function About() {
                     className="mb-3"
                 >
                     <Tab eventKey="skills" title="Main skills" className={'tab_btn'}>
-                        <p className={classes.text_color + ' lead fw-bold pb-0 mb-0'}>
-                            User experience design</p>
-                        <p className={classes.text_color + ' m-0 p-0 mb-3'}>
-                            Delight the user and make it work.</p>
+
                         <p className={classes.text_color + ' lead fw-bold pb-0 mb-0'}>
                             Web and user interface design</p>
                         <p className={classes.text_color + ' m-0 p-0 mb-3'}>
-                            Websites, web experiences, ...</p>
+                            I create websites that are useful and clearly convey content. When designing, I follow the
+                            UI / UX principles and knowledge in the field of marketing. The result of my work is a
+                            modern, responsive website, where customers can easily navigate and reach places where you
+                            want to lead them.</p>
                         <p className={classes.text_color + ' lead fw-bold pb-0 mb-0'}>
                             Full Stack Development</p>
                         <p className={classes.text_color + ' m-0 p-0 mb-3'}>
@@ -57,9 +58,14 @@ export default function About() {
                         <p className={classes.text_color + ' lead pb-0 mb-0'}>
                            <span className={'fw-bold'}>
                                Diploma in Full Stack Software Development
-                           </span> - CodeInstitute, Dublin</p>
+                           </span> - At Code Institute, Europe's only University Credit-rated Coding Bootcamp.</p>
                         <p className={classes.text_color + ' m-0 p-0 mb-3'}>
-                            2019- 2020</p>
+                            I have
+                            completed 4 independently assessed milestone projects to earn a Diploma in Software
+                            Development: User-Centric Front End using HTML, CSS and Bootstrap; Interactive Front-End
+                            using HTML5, CSS3, Bootstrap, JavaScript; Data-Centric Full-Stack using
+                            Front End technologies as well as Python, Flask and MongoDB; Full-Stack using Front End
+                            PostgreSQL, Python, Django. 2019- 2020.</p>
                         <p className={classes.text_color + ' lead pb-0 mb-0'}>
                            <span className={'fw-bold'}>
                               Angular : Beginner to Pro
