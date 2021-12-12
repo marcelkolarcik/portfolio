@@ -7,6 +7,7 @@ import {useLocation} from "react-router-dom";
 
 
 export default function MainNavigation() {
+
     const [clickedLink, setClickedLink] = useState('');
     const [colorChange, setColorChange] = useState(false);
     const links = ['home', 'about', 'service', 'portfolio', 'contact']
@@ -57,7 +58,6 @@ export default function MainNavigation() {
         };
     }, [changeNavbarColor])
 
-
     return (
 
         <Navbar sticky={'top'} collapseOnSelect bg={colorChange ? 'dark' : 'transparent'}
@@ -88,7 +88,6 @@ export default function MainNavigation() {
             </Container>
             <span className={classes.divider}>x</span>
         </Navbar>
-
-
     );
+
 }

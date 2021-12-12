@@ -1,12 +1,17 @@
 import React from "react";
 import classes from "./About.module.css";
 
+
 export default function Hero() {
+
     return (
         <div id={'home'} className={'home text-light d-flex justify-content-end align-items-center pe-5 w-100'}>
+
+
             <div>
+
                 <p className={'text-end mt-5'}>
-                   HI THERE,
+                    HI THERE,
 
                 </p>
                 <h1 className={'display-5 text-end fw-bold'}>
@@ -16,5 +21,5 @@ export default function Hero() {
                 </h1>
             </div>
         </div>
-            );
-            }
+    );
+}

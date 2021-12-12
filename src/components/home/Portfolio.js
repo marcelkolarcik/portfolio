@@ -4,6 +4,7 @@ import {portfolio_details} from "../../data_info/portfolio";
 import PortfolioItem from "./PortfolioItem";
 
 export default function Portfolio() {
+
     return (
 
         <div id={'portfolio'} className={classes.about_bgr_dark + ' py-5 '}>

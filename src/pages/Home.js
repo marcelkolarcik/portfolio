@@ -6,6 +6,7 @@ import Contact from "../components/home/Contact";
 import Welcome from "../components/home/Welcome";
 import MainNavigation from "../ui/MainNavigation";
 import Hero from "../components/home/Hero";
+import ErrorBoundary from "../ui/ErrorBoundary";
 
 export default function Home() {
 
@@ -13,12 +14,23 @@ export default function Home() {
         <>
 
             <Welcome>
+
                 <MainNavigation/>
-                <Hero/>
-                <About/>
-                <Service/>
-                <Portfolio/>
-                <Contact/>
+                <ErrorBoundary component={'home'}>
+                    <Hero/>
+                </ErrorBoundary>
+                <ErrorBoundary component={'about'}>
+                    <About/>
+                </ErrorBoundary>
+                <ErrorBoundary component={'service'}>
+                    <Service/>
+                </ErrorBoundary>
+                <ErrorBoundary component={'portfolio'}>
+                    <Portfolio/>
+                </ErrorBoundary>
+                <ErrorBoundary component={'contact'}>
+                    <Contact/>
+                </ErrorBoundary>
 
             </Welcome>
         </>
