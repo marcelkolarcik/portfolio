@@ -8,7 +8,7 @@ export default function Contact() {
         <div id={'contact'} className={' row g-0 ' + classes.about_bgr_light}>
             <div className="col-md-7">
                 <h1 className={'display-1 text-center text-light mt-5 fw-bold contact ' + classes.heading}>
-                    Hire me<span className={classes.blue}>.</span></h1>
+                    Contact me<span className={classes.blue}>.</span></h1>
                  <p className={'lead text-center ' + classes.text_color}>
                If you would like to hire me, I am currently looking for a new opportunity to
                      build something amazing<span className={classes.blue}>.</span>
