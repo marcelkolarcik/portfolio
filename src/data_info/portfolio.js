@@ -4,8 +4,18 @@ import globtopus from '../images/globtopus.png';
 import md from '../images/md.png';
 import wuh from '../images/wuh.jpg'
 import sjt from '../images/sjt.jpg'
-
+import mflix from '../images/mflix.jpg'
 export const portfolio_details = [
+    {
+        title: 'mkFlix',
+        description: 'WORK IN PROGRESS! Find your favourite movie and read all about it...;-)',
+        url: 'https://mk-flix.herokuapp.com',
+        technologies: 'Reactjs, Python/Flask, MongoDB, Firebase, HTML, CSS, Javascript,',
+        image: mflix,
+        features: ['Searching for your favourite movie',
+            'and read all about it...;-)',
+           ]
+    },
     {
         title: 'ifyMARKET.com',
         description: 'A marketplace for local ' +
