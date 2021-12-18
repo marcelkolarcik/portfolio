@@ -15,7 +15,7 @@ export default function About() {
                 <h1 className={'display-1 fw-bold text-light about'}>About me<span className={classes.blue}>.</span>
                 </h1>
                 <p className={classes.text_color + ' lead'}>
-                    Highly motivated, self-starting developer seeking to launch a career
+                    Web developer,
                     building web applications and services. Familiar with development and
                     deployment process for many web-based technologies.
                 </p>
@@ -42,18 +42,18 @@ export default function About() {
                             Stripe, leaflet.js...
                         </p>
                     </Tab>
-                    <Tab eventKey="profile" title="Experience">
-                        <p className={classes.text_color + ' lead pb-0 mb-0'}>
-                            <span className={'fw-bold'}>Project Developer/Owner</span> ifyMARKET.com</p>
-                        <p className={classes.text_color + ' m-0 p-0 mb-3'}>
-                            CMS with fully featured online store, <br/>
-                            Stripe connected account for businesses to accept online payments on the platform, <br/>
-                            Multiple team members access, several access levels, <br/>
-                            Assigning orders directly on the orders map, <br/>
-                            Job posting and job application management, <br/>
-                            Creating pay-per-click ads, <br/>
-                            ... <br/>2020 - Current</p>
-                    </Tab>
+                    {/*<Tab eventKey="profile" title="Experience">*/}
+                    {/*    <p className={classes.text_color + ' lead pb-0 mb-0'}>*/}
+                    {/*        <span className={'fw-bold'}>Project Developer/Owner</span> ifyMARKET.com</p>*/}
+                    {/*    <p className={classes.text_color + ' m-0 p-0 mb-3'}>*/}
+                    {/*        CMS with fully featured online store, <br/>*/}
+                    {/*        Stripe connected account for businesses to accept online payments on the platform, <br/>*/}
+                    {/*        Multiple team members access, several access levels, <br/>*/}
+                    {/*        Assigning orders directly on the orders map, <br/>*/}
+                    {/*        Job posting and job application management, <br/>*/}
+                    {/*        Creating pay-per-click ads, <br/>*/}
+                    {/*        ... <br/>2020 - Current</p>*/}
+                    {/*</Tab>*/}
                     <Tab eventKey="contact" title="Education & Certification">
                         <p className={classes.text_color + ' lead pb-0 mb-0'}>
                            <span className={'fw-bold'}>
