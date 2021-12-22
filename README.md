@@ -1,6 +1,6 @@
 # Personal portfolio
 
- You can see my portfolio  [Create React App](https://github.com/facebook/create-react-app).
+ You can see my portfolio [here](https://marcelkolarcik.herokuapp.com).
 
 ## Technologies
 
