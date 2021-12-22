@@ -8,12 +8,15 @@ import mflix from '../images/mflix.jpg'
 export const portfolio_details = [
     {
         title: 'mkFlix',
-        description: 'WORK IN PROGRESS! Find your favourite movie and read all about it...;-)',
+        description: 'For movie fans. DEMO APP.',
         url: 'https://mk-flix.herokuapp.com',
+         githubUrl: 'https://github.com/marcelkolarcik/mflix',
         technologies: 'Reactjs, Python/Flask, MongoDB, Firebase, HTML, CSS, Javascript,',
         image: mflix,
-        features: ['Searching for your favourite movie',
+        features: ['Find for your favourite movie',
             'and read all about it...;-)',
+            'Explore theatres near you.',
+            'Book your tickets online.'
            ]
     },
     {
@@ -35,26 +38,19 @@ export const portfolio_details = [
         title: 'Demo airbnb',
         description: 'Full-Stack demo booking application ',
         url: 'https://mk-react-flask.herokuapp.com',
+        githubUrl: 'https://github.com/marcelkolarcik/mk-react-flask',
         technologies: 'Reactjs, Python/Flask, MongoDB, Firebase, HTML, CSS, Javascript,',
         image: airbnb,
         features: ['Searching for the perfect room',
             'Booking the room',
             'Preview of my bookings']
     },
-    {
-        title: 'globtopus.com',
-        description: 'How are you today?',
-        url: 'http://www.globtopus.com',
-        technologies: 'Python, Flask, MongoDB, Javascript, HTML, CSS, jQuery',
-        image: globtopus,
-        features: ['A study project from CodeInstitute',
-            'Attempt to find out how does the world feel...;-)',
-            'Currently under re-development']
-    },
+
     {
         title: 'Web studio',
         description: 'A prototype app for a web studio',
         url: 'https://marcelli.herokuapp.com',
+        githubUrl: "https://github.com/marcelkolarcik/web_studio",
         technologies: 'Python, Django, Postgres, Javascript, HTML, CSS, jQuery',
         image: md,
         features: ['A study project from CodeInstitute',
@@ -67,13 +63,13 @@ export const portfolio_details = [
         title: 'Wake up happy',
         description: 'A booking site, where customers can find rooms with the view...',
         url: 'https://marcelkolarcik.github.io/wake-up-happy/index.html',
+        githubUrl: 'https://github.com/marcelkolarcik/wake-up-happy',
         technologies: 'Javascript, HTML, CSS, jQuery',
         image: wuh,
         features: ['A study project from CodeInstitute',
             'Owners can:' +
             ' - add their rooms onto the site, using our 5 step method, with visual and written ',
-            ' - guides for every step of the journey.',
-            ' - log in anytime to see total income and occupancy for the room, and any bookings with customer details.',
+            ' - see total income and occupancy for the room, and any bookings with customer details.',
             'edit room details or add another room']
     },
     {
@@ -81,6 +77,7 @@ export const portfolio_details = [
         description: 'Simple jQuery translator, that will translate text, title of element, placeholder of input fields,' +
             ' alt attribute of image.',
         url: 'https://marcelkolarcik.github.io/simple-jQuery-translator/index.html',
+        githubUrl: "https://github.com/marcelkolarcik/simple-jQuery-translator",
         technologies: 'Javascript, HTML, CSS, jQuery',
         image: sjt,
         features: ['A study project from CodeInstitute',]
